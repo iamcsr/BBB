@@ -5,7 +5,7 @@ use strict;
 use Gtk2 -init;
 use Glib qw(TRUE FALSE);
 
-use Filesys::Df;
+#use Filesys::Df;
 #use File::Rsync;
 
 #use Sys::Filesystem;
