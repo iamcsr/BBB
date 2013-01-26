@@ -15,7 +15,7 @@ my $source_mount = '/mnt/source';
 
 my $welcome = Gtk2::Window->new('toplevel');
 $welcome->signal_connect( delete_event => sub { Gtk2->main_quit } );
-
+ 
 #Set-up the welcome window
 $welcome->add( &firstTable() );
 #$welcome->show();
