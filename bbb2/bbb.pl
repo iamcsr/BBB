@@ -22,12 +22,12 @@ $welcome->add( &firstTable() );
 
 my $niWin = &niWin;
 
-#$niWin->show_all();
+$niWin->show_all();
 
-my @mfs = &getMntDr;
+#my @mfs = &getMntDr;
 
-my $lwin = &testList;
-$lwin->show_all();
+#my $lwin = &testList;
+#$lwin->show_all();
 
 Gtk2->main;
 
