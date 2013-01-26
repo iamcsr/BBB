@@ -5,10 +5,10 @@ use strict;
 use Gtk2 -init;
 use Glib qw(TRUE FALSE);
 
-use Filesys::Df;
-use File::Rsync;
+#use Filesys::Df;
+#use File::Rsync;
 
-use Sys::Filesystem;
+#use Sys::Filesystem;
 
 ####Customizable Variables
 my $source_mount = '/mnt/source';
